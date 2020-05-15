@@ -13,11 +13,16 @@ function greet(time){
   if(t[0]<12){
     return `good morning`;
   }
-  if(t[0]>=12 && time<5){
+  if(t[0]>=12 && time<17){
     return `good afternoon`;
   }
-  if(t[0]>5){
+  if(t[0]>=17){
     return `good evening`;
   }
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(message){
+  let x = document.getElementById('greeting');
+  x.innerText = message;
+  console.log(message);
+}
