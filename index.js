@@ -13,7 +13,7 @@ function greet(time){
   if(t[0]<12){
     return `Good Morning`;
   }
-  if(t[0]>=12 && time<17){
+  if(t[0]>=12 && t[0]<17){
     return `Good Afternoon`;
   }
   if(t[0]>=17){
