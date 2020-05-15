@@ -11,13 +11,13 @@ function handleClick(e) {
 function greet(time){
   let t=time.split(":");
   if(t[0]<12){
-    return `good morning`;
+    return `Good Morning`;
   }
   if(t[0]>=12 && time<17){
-    return `good afternoon`;
+    return `Good Afternoon`;
   }
   if(t[0]>=17){
-    return `good evening`;
+    return `Good Evening`;
   }
 }
 /* Write your implementation of displayMessage() */
